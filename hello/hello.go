@@ -14,7 +14,11 @@ func main() {
 	const pi float32 = 3.14
 	fmt.Println(pi)
 
-	multiply := difFloat * float64(pi)
+	multiply := float32(myNum) * pi
 	fmt.Println(multiply)
+
+	myString := `helo
+	workd`
+	fmt.Println(myString)
 
 }
